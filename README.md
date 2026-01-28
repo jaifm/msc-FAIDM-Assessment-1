@@ -68,7 +68,6 @@ msc-FAIDM-Assessment-1/
 ## Notebook Descriptions
 
 ### Notebook 1: Data Preparation and Exploratory Data Analysis
-**Duration**: 20-30 minutes
 
 Comprehensive data preparation pipeline including:
 - Dataset loading and structure validation
@@ -82,7 +81,6 @@ Comprehensive data preparation pipeline including:
 **Output**: Prepared feature set and target variable saved for subsequent analysis
 
 ### Notebook 2: Regression Models for Score Prediction
-**Duration**: 30-45 minutes (including hyperparameter tuning)
 
 Supervised learning implementation:
 - Train-test split (80/20 with fixed random state)
@@ -97,7 +95,6 @@ Supervised learning implementation:
 **Key Findings**: Identifies best-performing model and feature importance rankings
 
 ### Notebook 2b: Classification Models for Student Outcome Prediction
-**Duration**: 25-35 minutes
 
 Multiclass classification for final student outcomes:
 - Predicts four outcomes: Distinction, Pass, Fail, Withdrawn
@@ -112,7 +109,6 @@ Multiclass classification for final student outcomes:
 **Key Findings**: Identifies outcome prediction accuracy and model agreement patterns
 
 ### Notebook 3: Unsupervised Clustering - Student Segmentation
-**Duration**: 20-30 minutes
 
 Clustering analysis for learning persona identification:
 - Behavioural feature selection and standardisation
@@ -125,7 +121,6 @@ Clustering analysis for learning persona identification:
 **Output**: Student-to-cluster assignments with detailed profile characteristics
 
 ### Notebook 4: Final Models and Early Intervention System
-**Duration**: 15-20 minutes
 
 Comprehensive results and early intervention implementation:
 - Feature importance visualisation (top 20 features)
@@ -274,12 +269,6 @@ Execute notebooks sequentially:
    jupyter notebook 1_Notebooks/04_Final_Models.ipynb
    ```
    *Output*: Comprehensive visualisations and intervention recommendations
-
-### Time Estimates
-- Full pipeline execution: 120-150 minutes
-- Hyperparameter tuning: 20-30 minutes of total time
-- Classification training: 15-20 minutes
-- Memory requirements: 2+ GB RAM available
 
 ## Key Technical Decisions
 
