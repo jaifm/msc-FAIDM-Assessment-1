@@ -407,32 +407,3 @@ All analyses employ fixed random states to ensure reproducibility:
 3. **Data Quality**: Missing assessment scores treated as 0; actual vs genuine missing not distinguished
 4. **Generalisation**: Models trained on specific cohorts; performance may vary across different student populations
 5. **Feature Collinearity**: No formal multicollinearity tests performed
-
-## References
-
-### Methodological Sources
-- CRISP-DM: Shekel Shefrin. "Data Mining: Practical Machine Learning Tools and Techniques"
-- Scikit-learn: Pedregosa et al., "Scikit-learn: Machine Learning in Python"
-- XGBoost: Chen & Guestrin, "XGBoost: A Scalable Tree Boosting System"
-
-### Domain References
-- Open University Learning Analytics: Kuzilek et al., "Open University Learning Analytics Dataset"
-- Student Success Prediction: Osmanbegovic & Suljic, "Data Mining Approach for Predicting Student Success"
-
-## License
-
-This project is provided for educational purposes as part of the University of Warwick MSc in Finance and Investment Data and Mining (FAIDM) programme.
-
-## Support
-
-For questions or issues:
-1. Review the relevant notebook documentation
-2. Check inline code comments for detailed explanations
-3. Verify all dependencies are installed correctly
-4. Ensure data files are in correct locations
-
----
-
-**Last Updated**: January 2026
-**Status**: Complete and Tested
-**Version**: 1.0
